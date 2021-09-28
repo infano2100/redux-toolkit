@@ -2,7 +2,6 @@ import { configureStore } from "@reduxjs/toolkit";
 import storage from "redux-persist/lib/storage";
 import { combineReducers } from "redux";
 import { persistReducer } from "redux-persist";
-import thunk from "redux-thunk";
 
 import todoReducer from "./Reducers/todoSlice";
 import storesReducer from "./Reducers/storesSlice";
